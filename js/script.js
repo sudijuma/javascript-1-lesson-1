@@ -41,3 +41,48 @@ console.log("my user object", user)
 console.log("name", user.name);
 
 user.login("Sudi")
+
+
+//let and const
+
+
+/* const count = 1;
+count = 99;
+count = count + 99;
+console.log(count); */
+/* 
+let count = 1;
+count = 2; */
+/* count = count + 1; */
+/* count += +1; */
+/* count++;
+console.log("suck it", count)
+
+{
+    let pet = "dog";
+    function bark() {
+        console.log(pet)
+    }
+    bark();
+}
+
+ */
+const profile = {
+    name: "Sudi",
+    age: "35",
+    job: "doctor"
+}
+console.log(profile.name);
+console.dir(profile);
+
+
+//using backticks
+
+const senteces = `one
+                two`;
+console.log(senteces)
+const sentecesTwo = "blahg\ncoock"
+console.log(sentecesTwo)
+
+
+
