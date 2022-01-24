@@ -16,7 +16,7 @@ function loginToSite(arg) {
     arg();
 }
 loginToSite(enterSite);
-
+//example 3, function as a variable
 var login = function (name){
     console.log("you may login: ", name)
 }
@@ -39,3 +39,11 @@ console.log("my user object", user)
 console.log("name", user.name);
 
 user.login("Sudi")
+var myName = "Sudi";
+
+function login(arg){
+    var myName = arg //local scope
+    return myName;
+}
+var someVar = login("Mwakie");
+console.log(someVar)
