@@ -46,10 +46,10 @@ user.login("Sudi")
 //let and const
 
 
-/* const count = 1;
+const count = 1;
 count = 99;
 count = count + 99;
-console.log(count); */
+console.log(count);
 /* 
 let count = 1;
 count = 2; */
@@ -66,7 +66,7 @@ console.log("suck it", count)
     bark();
 }
 
- */
+ 
 const profile = {
     name: "Sudi",
     age: "35",
